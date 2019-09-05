@@ -1,0 +1,41 @@
+Algoritmo 1:
+
+int sacar2dodigito ( igresar la pila){  (suponiendo que la pila ha sido llenada con anterioridad)
+
+	while (!empty (s)){
+	
+		if ( i esta vacio)
+  			i=pop (s)
+		else{
+			i=pop(s)
+			segundotermino=true
+			break
+		}
+	}
+
+	if (segundotermino)
+		return  i;
+	else 
+		return 0; 
+	
+}
+
+int main(){
+	
+	i=sacar2dodigito (ingresar pila);
+	
+      	if(i!=0)
+		cout<<i;
+	else
+		cout<<"la pila no posee los digitos suficientes"<<endl
+}
+
+Algoritmo 3:
+
+int sacarultimodigito (ingresar la pila){ (suponiendo que la pila ha sido llenada con anterioridad)
+
+	while (!empty(s))
+		i=pop(s);
+
+	return i;
+}
