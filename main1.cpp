@@ -1,25 +1,36 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/* 
- * File:   main.cpp
- * Author: uca
- *
- * Created on 6 de septiembre de 2019, 15:11
- */
-
+//ejercicio 8 lab 1
+#include <iostream>
 #include <cstdlib>
 
 using namespace std;
 
-/*
- * 
- */
-int main(int argc, char** argv) {
+void imprimir(int num, x);
+
+int main() {
+	int num;
+	cout << "ingrese un numero entero positivo: " << endl;
+	cin >> num;
+	int x;
+	x = num;
+
+	imprimir(num, x);
 
     return 0;
+}
+
+void imprimir(int num, int x)
+{
+	if (num == 1)
+		cout << 1 << endl;
+	else
+	{
+		imprimir(num - 1, x);
+		cout << num << endl;
+	}
+	if (num == x)
+	{
+		for(int i=num;i>=1;i--)
+			cout<<i<<endl
+	}
 }
 
