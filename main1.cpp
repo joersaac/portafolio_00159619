@@ -4,7 +4,7 @@
 
 using namespace std;
 
-void imprimir(int num, x);
+void imprimir(int num, int x);
 
 int main() {
 	int num;
@@ -15,7 +15,7 @@ int main() {
 
 	imprimir(num, x);
 
-    return 0;
+	return 0;
 }
 
 void imprimir(int num, int x)
@@ -29,8 +29,8 @@ void imprimir(int num, int x)
 	}
 	if (num == x)
 	{
-		for(int i=num;i>=1;i--)
-			cout<<i<<endl
+		for (int i = num-1; i >= 1; i--)
+			cout << i << endl;
 	}
 }
 
