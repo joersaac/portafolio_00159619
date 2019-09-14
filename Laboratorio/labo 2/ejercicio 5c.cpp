@@ -30,33 +30,6 @@ int main()
 	hanoi(n, 'A', 'C', 'B');
 
 }
-	}
-	else {
-		if (a > b)
-		{
-			mayor = a;
-			menor = b;
-		}
-		else
-		{
-			mayor = b;
-			menor = a;
-		}
-
-		cout << "El maximo comun divisor es: " << MCD(mayor, menor);
-	}
-}*/
-/*
-int main() {
-	int arr1(100);
-	int arr2(100);
-	int arr3(100);
-	int n;
-
-	cout << "Ingresa el numero de anillos que quieres que sea tu torre: ";
-	cin >> n;
-
-	for (int i = 0; i < n; i++) {
 		arr1[i] = i + 1;
 		arr2[i] = 0;
 		arr3[i] = 0;
