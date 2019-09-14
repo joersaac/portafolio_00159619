@@ -1,0 +1,22 @@
+1-) Asuma que un arreglo est´a almacenado en la memoria utilizando
+la representaci´on row-major. Si la matriz a[10][20] ya fue
+declarada y la direcci´on de su primer elemento es 100; encuentre la
+direcci´on de los siguientes elementos:
+
+a[0][0]	=100
+a[2][1]	=141
+a[5][1]	=201
+a[1][10]=130
+a[2][10]=150
+a[5][3]	=203
+a[9][19]=299
+
+
+2-) ¿Son validas las siguientes expresiones?
+a-) matrix[0][0] = *(*(matrix))
+b-) matrix[ i ][ j ] = *((*(matrix)) + (i * COLS + j))
+c-) matrix[ i ][ j ] = *(*(matrix + i) + j)
+d-) matrix[ i ][ j ] = *(matrix[i] + j)
+e-) matrix[ i ][ j ] = (*(matrix + i))[j]
+
+R//si, todas son validas.
