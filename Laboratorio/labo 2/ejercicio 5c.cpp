@@ -30,10 +30,3 @@ int main()
 	hanoi(n, 'A', 'C', 'B');
 
 }
-		arr1[i] = i + 1;
-		arr2[i] = 0;
-		arr3[i] = 0;
-	}
-
-}*/
-
