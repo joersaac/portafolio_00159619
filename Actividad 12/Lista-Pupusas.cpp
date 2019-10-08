@@ -20,7 +20,7 @@ Pupusas pedidoPupusas() {
 	return p;
 }
 
-void mostrarPasatiempo(Pupusas p) {
+void mostrarPedido(Pupusas p) {
 	cout << "Pupusas revueltas: " << p.revueltas << endl;
 	cout << "Pupusas de frijol con queso: " << p.frijolconqueso << endl;
 	cout << "Pupusas de queso: " << p.queso << endl;
@@ -65,7 +65,7 @@ void insertarFinal(Pupusas p) {
 	}
 }
 
-void agregarPasatiempo() {
+void agregarPedido() {
 	Pupusas p = pedidoPupusas();
 	bool continuar = true;
 	do {
@@ -90,7 +90,7 @@ void mostrarLista() {
 	Nodo *s = pInicio;
 
 	while (s != NULL) {
-		mostrarPasatiempo(s->dato);
+		mostrarPedido(s->dato);
 		s = s->sig;
 	}
 }
@@ -107,7 +107,7 @@ int main() {
 		cin >> opcion;
 		switch (opcion) {
 		case 1: cout << "Agregando..." << endl;
-			agregarPasatiempo();
+			agregarPedido();
 			break;
 		case 2: cout << "Listando..." << endl;
 			mostrarLista();
