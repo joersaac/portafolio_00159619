@@ -91,4 +91,6 @@ int main()
 	mostrarImpares();
 	cout << "Los numeros de la lista invertidos son: " << endl;
 	mostrarInvertida(pInicio);
+
+	return 0;
 }
